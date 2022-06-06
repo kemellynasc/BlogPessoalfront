@@ -6,7 +6,7 @@ import { EntrarComponent } from './entrar/entrar.component';
 const routes: Routes = [
   {path: '', redirectTo: 'entrar', pathMatch:'full'}, 
   {path:'entrar', component: EntrarComponent},
-{path:'cadastrar', component: CadastrarComponent}
+  {path:'cadastrar', component: CadastrarComponent}
 ];
 
 @NgModule({
